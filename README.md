@@ -3,14 +3,7 @@
 <!-- Responsive Animated Wave SVG Banner (Scales cleanly on desktop & mobile) -->
 <img src="./banner.svg" width="100%" alt="Kenneth Barrera - Full-Stack Software Engineer" />
 
-<br/>
-
-<!-- Animated Typing Subheader -->
-<a href="https://github.com/KennethBarreraDev">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=720&height=38&lines=%E2%9A%A1+Architecting+Scalable+Web%2C+Mobile+%26+Cloud+Systems;%F0%9F%92%8E+Flutter+%E2%80%A2+Kotlin+%E2%80%A2+React+%E2%80%A2+Node.js+%E2%80%A2+SQL+%E2%80%A2+Firebase;%F0%9F%9A%80+Currently+Expanding+into+Spring+Boot+%26+React+Native" alt="Typing Subheader" />
-</a>
-
-<br/>
+<br/><br/>
 
 <!-- Responsive Action Bar (Wraps naturally on mobile) -->
 <p align="center">
