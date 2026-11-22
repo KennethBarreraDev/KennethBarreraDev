@@ -1,93 +1,47 @@
 <div align="center">
 
-<!-- Custom Animated Wave SVG Banner (100% reliable, Black & Royal Blue) -->
+<!-- Responsive Animated Wave SVG Banner (Scales cleanly on desktop & mobile) -->
 <img src="./banner.svg" width="100%" alt="Kenneth Barrera - Full-Stack Software Engineer" />
 
 <br/>
 
 <!-- Animated Typing Subheader -->
 <a href="https://github.com/KennethBarreraDev">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=780&height=40&lines=%E2%9A%A1+Architecting+Scalable+Web%2C+Mobile+%26+Cloud+Systems;%F0%9F%92%8E+Flutter+%E2%80%A2+Kotlin+%E2%80%A2+React+%E2%80%A2+Node.js+%E2%80%A2+SQL+%E2%80%A2+Firebase;%F0%9F%9A%80+Currently+Expanding+into+Spring+Boot+%26+React+Native" alt="Typing Subheader" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=720&height=38&lines=%E2%9A%A1+Architecting+Scalable+Web%2C+Mobile+%26+Cloud+Systems;%F0%9F%92%8E+Flutter+%E2%80%A2+Kotlin+%E2%80%A2+React+%E2%80%A2+Node.js+%E2%80%A2+SQL+%E2%80%A2+Firebase;%F0%9F%9A%80+Currently+Expanding+into+Spring+Boot+%26+React+Native" alt="Typing Subheader" />
 </a>
 
 <br/>
 
-<!-- Clean Action Bar -->
+<!-- Responsive Action Bar (Wraps naturally on mobile) -->
 <p align="center">
   <a href="https://www.linkedin.com/in/kenneth-osvaldo-barrera-orozco-623578250/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  &nbsp;
   <a href="https://github.com/KennethBarreraDev" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-@KennethBarreraDev-09090B?style=for-the-badge&logo=github&logoColor=3B82F6" alt="GitHub" />
   </a>
-  &nbsp;
   <img src="https://img.shields.io/badge/Based_in-Mexico_%F0%9F%87%B2%F0%9F%87%BD-09090B?style=for-the-badge" alt="Mexico" />
 </p>
 
 <br/>
 
 <p align="center">
-  <i>I design, architect, and ship <b>end-to-end digital products</b>—combining fluid mobile experiences,<br/>
-  modern web interfaces, and scalable backend &amp; database systems.</i>
+  <i>I design, architect, and ship <b>end-to-end digital products</b>—combining fluid mobile experiences, modern web interfaces, and scalable backend &amp; database systems.</i>
 </p>
 
 </div>
 
-<br/>
-
 ---
-
-<br/>
 
 ## ✦ &nbsp; What I Build
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <br/>
-      <h3>🌐 Full-Stack Web</h3>
-      <p>Fast, responsive web applications and scalable REST APIs built with <b>React</b>, <b>TypeScript</b>, and <b>Node.js</b>.</p>
-      <code>React</code> <code>TypeScript</code> <code>Node.js</code> <code>Express</code>
-      <br/><br/>
-    </td>
-    <td width="33%" valign="top">
-      <br/>
-      <h3>📱 Mobile Engineering</h3>
-      <p>Fluid cross-platform and native Android apps engineered with <b>Flutter</b> and <b>Kotlin</b> using Clean Architecture.</p>
-      <code>Flutter</code> <code>Dart</code> <code>Kotlin</code> <code>Android</code>
-      <br/><br/>
-    </td>
-    <td width="34%" valign="top">
-      <br/>
-      <h3>🗄️ Data &amp; Cloud</h3>
-      <p>Normalized relational schemas, high-performance <b>SQL</b> queries, and real-time serverless backends on <b>Firebase</b>.</p>
-      <code>MySQL</code> <code>PostgreSQL</code> <code>SQL Server</code> <code>Firebase</code>
-      <br/><br/>
-    </td>
-  </tr>
-</table>
-
-<br/>
+- **🌐 Full-Stack Web** — Fast, responsive web applications and scalable REST APIs built with `React`, `TypeScript`, `Node.js`, and `Express`.
+- **📱 Mobile Engineering** — Fluid cross-platform and native Android apps engineered with `Flutter`, `Dart`, and `Kotlin` using Clean Architecture.
+- **🗄️ Data & Cloud** — Normalized relational schemas, high-performance `SQL` (`MySQL`, `PostgreSQL`, `SQL Server`), and real-time serverless backends on `Firebase`.
 
 ---
 
-<br/>
-
 ## ✦ &nbsp; Engineering Profile
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-
-### Principles & Workflow
-- **End-to-End Ownership** — From database design & API contracts to polished UI.
-- **Clean Architecture** — Modular, testable, SOLID-driven codebases built to scale.
-- **Performance First** — Smooth 60/120fps mobile rendering & optimized SQL queries.
-- **Continuous Evolution** — Always adopting battle-tested tools that raise engineering quality.
-
-    </td>
-    <td width="50%" valign="top">
 
 ```ts
 export const profile = {
@@ -105,18 +59,16 @@ export const profile = {
     "Spring Boot",
     "React Native",
   ],
+
+  principles: [
+    "End-to-End Ownership",
+    "Clean Architecture & SOLID",
+    "60/120fps Mobile & Fast SQL",
+  ],
 };
 ```
 
-    </td>
-  </tr>
-</table>
-
-<br/>
-
 ---
-
-<br/>
 
 ## ✦ &nbsp; Tech Stack
 
@@ -124,48 +76,47 @@ export const profile = {
 
 <br/>
 
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=react,ts,js,html,css,nodejs,express,flutter,dart,kotlin,androidstudio,firebase,mysql,postgres,git,github,postman,vscode&perline=9&theme=dark" alt="Tech Stack" />
-</a>
+<!-- Responsive Wrapping Icons (Adapts automatically to desktop, tablet & mobile) -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,ts,js,html,css,nodejs&theme=dark" alt="Web & Backend" />
+  <img src="https://skillicons.dev/icons?i=express,flutter,dart,kotlin,androidstudio,firebase&theme=dark" alt="Mobile & Cloud" />
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,git,github,postman,vscode&theme=dark" alt="Data & Tools" />
+</p>
 
-<br/><br/>
+<br/>
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <br/>
-      <b>⚡ PRODUCTION STACK</b>
-      <br/><br/>
-      <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
-      <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" />
-      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
-      <br/>
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-      <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
-      <br/><br/>
-    </td>
-    <td align="center" width="50%">
-      <br/>
-      <b>🌱 CURRENTLY EXPANDING INTO</b>
-      <br/><br/>
-      <img src="https://skillicons.dev/icons?i=spring,java,react&perline=3&theme=dark" alt="Learning Stack" />
-      <br/><br/>
-      <code>Spring Boot</code> &nbsp;·&nbsp; <code>Java</code> &nbsp;·&nbsp; <code>React Native</code>
-      <br/><br/>
-    </td>
-  </tr>
-</table>
+**⚡ Production Stack**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart" />
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin" />
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=black" alt="Android" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase" />
+</p>
+
+<br/>
+
+**🌱 Currently Expanding Into**
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=spring,java,react&perline=3&theme=dark" alt="Learning Stack" />
+</p>
+
+<p align="center">
+  <code>Spring Boot</code> · <code>Java</code> · <code>React Native</code>
+</p>
 
 </div>
 
-<br/>
-
 ---
-
-<br/>
 
 ## ✦ &nbsp; Consistency &amp; Contributions
 
@@ -178,20 +129,16 @@ export const profile = {
 
 <br/><br/>
 
-<!-- Dark Mode Black & Blue Contribution Squares with Snake Animation (Auto-generated by .github/workflows/snake.yml) -->
+<!-- Dark Mode Black & Blue Contribution Squares with Snake Animation -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KennethBarreraDev/KennethBarreraDev/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KennethBarreraDev/KennethBarreraDev/output/github-contribution-grid-snake.svg" />
-  <img width="94%" alt="Kenneth Barrera's GitHub Contribution Grid" src="https://raw.githubusercontent.com/KennethBarreraDev/KennethBarreraDev/output/github-contribution-grid-snake-dark.svg" />
+  <img width="100%" alt="Kenneth Barrera's GitHub Contribution Grid" src="https://raw.githubusercontent.com/KennethBarreraDev/KennethBarreraDev/output/github-contribution-grid-snake-dark.svg" />
 </picture>
 
 </div>
 
-<br/>
-
 ---
-
-<br/>
 
 <div align="center">
 
@@ -201,17 +148,18 @@ export const profile = {
 
 <br/><br/>
 
-<a href="https://www.linkedin.com/in/kenneth-osvaldo-barrera-orozco-623578250/" target="_blank">
-  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-&nbsp;
-<a href="https://github.com/KennethBarreraDev" target="_blank">
-  <img src="https://img.shields.io/badge/Explore_My_Repositories-09090B?style=for-the-badge&logo=github&logoColor=3B82F6" alt="GitHub" />
-</a>
+<p align="center">
+  <a href="https://www.linkedin.com/in/kenneth-osvaldo-barrera-orozco-623578250/" target="_blank">
+    <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://github.com/KennethBarreraDev" target="_blank">
+    <img src="https://img.shields.io/badge/Explore_My_Repositories-09090B?style=for-the-badge&logo=github&logoColor=3B82F6" alt="GitHub" />
+  </a>
+</p>
 
-<br/><br/>
+<br/>
 
-<!-- Matching Animated Wave Footer SVG -->
+<!-- Responsive Matching Animated Wave Footer SVG -->
 <img src="./footer.svg" width="100%" alt="Kenneth Barrera Footer" />
 
 </div>
