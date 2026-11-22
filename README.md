@@ -34,14 +34,6 @@
 
 ---
 
-## ✦ &nbsp; Engineering Profile
-
-<div align="center">
-  <img src="./profile.svg" width="100%" alt="Kenneth Barrera Engineering Profile" />
-</div>
-
----
-
 ## ✦ &nbsp; Tech Stack
 
 <div align="center">
