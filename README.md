@@ -38,7 +38,7 @@
 
 <br/>
 
----
+<img src="./divider.svg" width="100%" alt="Divider" />
 
 <br/>
 
@@ -72,7 +72,7 @@
 
 <br/>
 
----
+<img src="./divider.svg" width="100%" alt="Divider" />
 
 <br/>
 
@@ -116,7 +116,7 @@ export const profile = {
 
 <br/>
 
----
+<img src="./divider.svg" width="100%" alt="Divider" />
 
 <br/>
 
@@ -165,7 +165,7 @@ export const profile = {
 
 <br/>
 
----
+<img src="./divider.svg" width="100%" alt="Divider" />
 
 <br/>
 
@@ -191,7 +191,7 @@ export const profile = {
 
 <br/>
 
----
+<img src="./divider.svg" width="100%" alt="Divider" />
 
 <br/>
 
