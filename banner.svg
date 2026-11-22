@@ -1,52 +1,111 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="100%">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#09090B" />
-      <stop offset="55%" stop-color="#0F172A" />
-      <stop offset="100%" stop-color="#09090B" />
+      <stop offset="0%" stop-color="#050814" />
+      <stop offset="50%" stop-color="#0B132B" />
+      <stop offset="100%" stop-color="#0F172A" />
     </linearGradient>
 
-    <linearGradient id="blueAccent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#3B82F6" />
-      <stop offset="100%" stop-color="#60A5FA" />
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1D4ED8" stop-opacity="0.45" />
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.45" />
     </linearGradient>
 
-    <radialGradient id="topGlow" cx="50%" cy="0%" r="65%">
-      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.22" />
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.3" />
+      <stop offset="50%" stop-color="#60A5FA" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#1D4ED8" stop-opacity="0.3" />
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60A5FA" />
+      <stop offset="50%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#818CF8" />
+    </linearGradient>
+
+    <radialGradient id="centerGlow" cx="50%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.28" />
       <stop offset="100%" stop-color="#2563EB" stop-opacity="0" />
     </radialGradient>
 
-    <pattern id="subtleGrid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#1E293B" stroke-width="0.7" stroke-opacity="0.55" />
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M 38 0 L 0 0 0 38" fill="none" stroke="#1E293B" stroke-width="0.7" stroke-opacity="0.45" />
     </pattern>
+
+    <clipPath id="roundedClip">
+      <rect width="1200" height="300" rx="18" />
+    </clipPath>
   </defs>
 
-  <!-- Background -->
-  <rect width="1200" height="280" rx="16" fill="url(#bg)" />
-  <rect width="1200" height="280" rx="16" fill="url(#subtleGrid)" />
-  <rect width="1200" height="280" rx="16" fill="url(#topGlow)" />
+  <g clip-path="url(#roundedClip)">
+    <!-- Base Dark Background -->
+    <rect width="1200" height="300" fill="url(#bg)" />
+    <rect width="1200" height="300" fill="url(#grid)" />
+    <rect width="1200" height="300" fill="url(#centerGlow)" />
 
-  <!-- Subtle Border -->
-  <rect x="1" y="1" width="1198" height="278" rx="15" fill="none" stroke="#1E293B" stroke-width="1.5" />
+    <!-- Twinkling Ambient Particles -->
+    <circle cx="140" cy="70" r="2.5" fill="#60A5FA">
+      <animate attributeName="opacity" values="0.15;0.95;0.15" dur="3.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="280" cy="180" r="2" fill="#38BDF8">
+      <animate attributeName="opacity" values="0.1;0.85;0.1" dur="4.1s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="960" cy="65" r="3" fill="#3B82F6">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1070" cy="160" r="2.2" fill="#818CF8">
+      <animate attributeName="opacity" values="0.15;0.9;0.15" dur="3.7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="840" cy="210" r="2" fill="#38BDF8">
+      <animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.5s" repeatCount="indefinite" />
+    </circle>
 
-  <!-- Top Center Pill -->
-  <g transform="translate(470, 44)">
-    <rect x="0" y="0" width="260" height="28" rx="14" fill="#0F172A" stroke="#1E3A8A" stroke-width="1" />
-    <circle cx="18" cy="14" r="4" fill="#3B82F6" />
-    <text x="140" y="18.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#93C5FD" letter-spacing="1.4">AVAILABLE FOR PROJECTS • MX</text>
+    <!-- Animated Scanning Light Line -->
+    <rect x="-300" y="0" width="300" height="2.5" fill="url(#textGrad)" opacity="0.85">
+      <animate attributeName="x" from="-300" to="1200" dur="4.5s" repeatCount="indefinite" />
+    </rect>
+
+    <!-- Animated Wave Layer Back -->
+    <path fill="url(#waveGrad2)">
+      <animate attributeName="d" dur="9s" repeatCount="indefinite"
+        values="
+          M0,235 C220,195 420,275 640,235 C860,195 1040,265 1200,225 L1200,300 L0,300 Z;
+          M0,225 C200,265 440,190 660,230 C880,270 1060,200 1200,240 L1200,300 L0,300 Z;
+          M0,235 C220,195 420,275 640,235 C860,195 1040,265 1200,225 L1200,300 L0,300 Z" />
+    </path>
+
+    <!-- Animated Wave Layer Front -->
+    <path fill="url(#waveGrad1)">
+      <animate attributeName="d" dur="6.5s" repeatCount="indefinite"
+        values="
+          M0,255 C260,290 480,215 740,255 C960,285 1100,230 1200,250 L1200,300 L0,300 Z;
+          M0,250 C240,215 500,285 760,245 C980,215 1120,275 1200,255 L1200,300 L0,300 Z;
+          M0,255 C260,290 480,215 740,255 C960,285 1100,230 1200,250 L1200,300 L0,300 Z" />
+    </path>
+
+    <!-- Status Pill with Pulsing Dot -->
+    <g transform="translate(465, 42)">
+      <rect x="0" y="0" width="270" height="28" rx="14" fill="#09090B" fill-opacity="0.75" stroke="#2563EB" stroke-width="1" stroke-opacity="0.7" />
+      <circle cx="18" cy="14" r="4" fill="#3B82F6">
+        <animate attributeName="r" values="3;5.2;3" dur="2s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="1;0.45;1" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="145" y="18.5" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#93C5FD" letter-spacing="1.4">AVAILABLE FOR PROJECTS • MX</text>
+    </g>
+
+    <!-- Main Name -->
+    <text x="600" y="138" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="60" font-weight="800" fill="#FFFFFF" letter-spacing="-1">Kenneth Barrera</text>
+
+    <!-- Animated Gradient Subtitle -->
+    <text x="600" y="178" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="url(#textGrad)" letter-spacing="0.5">Full-Stack Software Engineer</text>
+
+    <!-- Tech Stack Subtitle -->
+    <text x="600" y="212" text-anchor="middle" font-family="'Fira Code', 'JetBrains Mono', Consolas, monospace" font-size="13.5" font-weight="500" fill="#CBD5E1">
+      Flutter • Kotlin • React • Node.js • SQL • Firebase  |  Spring Boot • React Native
+    </text>
   </g>
 
-  <!-- Main Name -->
-  <text x="600" y="142" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="60" font-weight="800" fill="#F8FAFC" letter-spacing="-1">Kenneth Barrera</text>
-
-  <!-- Role Subtitle -->
-  <text x="600" y="184" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="600" fill="url(#blueAccent)" letter-spacing="0.4">Full-Stack Software Engineer</text>
-
-  <!-- Tech Line -->
-  <text x="600" y="224" text-anchor="middle" font-family="'Fira Code', 'JetBrains Mono', Consolas, monospace" font-size="14" font-weight="500" fill="#94A3B8">
-    Flutter • Kotlin • React • Node.js • SQL • Firebase  |  Spring Boot • React Native
-  </text>
-
-  <!-- Bottom Accent Bar -->
-  <rect x="440" y="276" width="320" height="4" rx="2" fill="url(#blueAccent)" />
+  <!-- Crisp Outer Border -->
+  <rect x="1" y="1" width="1198" height="298" rx="17" fill="none" stroke="#1E3A8A" stroke-width="1.5" stroke-opacity="0.7" />
 </svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 110" width="100%" height="100%">
+  <defs>
+    <linearGradient id="fBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#050814" />
+      <stop offset="50%" stop-color="#0B132B" />
+      <stop offset="100%" stop-color="#050814" />
+    </linearGradient>
+    <linearGradient id="fWave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1D4ED8" stop-opacity="0.55" />
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.55" />
+    </linearGradient>
+    <linearGradient id="fWave2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.3" />
+      <stop offset="50%" stop-color="#60A5FA" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#1D4ED8" stop-opacity="0.3" />
+    </linearGradient>
+    <clipPath id="fClip">
+      <rect width="1200" height="110" rx="14" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#fClip)">
+    <rect width="1200" height="110" fill="url(#fBg)" />
+    <path fill="url(#fWave2)">
+      <animate attributeName="d" dur="8s" repeatCount="indefinite"
+        values="
+          M0,45 C260,15 520,75 800,40 C1000,15 1120,55 1200,35 L1200,110 L0,110 Z;
+          M0,35 C240,70 500,15 780,50 C980,75 1100,25 1200,45 L1200,110 L0,110 Z;
+          M0,45 C260,15 520,75 800,40 C1000,15 1120,55 1200,35 L1200,110 L0,110 Z" />
+    </path>
+    <path fill="url(#fWave1)">
+      <animate attributeName="d" dur="6s" repeatCount="indefinite"
+        values="
+          M0,60 C300,90 560,30 860,60 C1040,80 1140,45 1200,60 L1200,110 L0,110 Z;
+          M0,55 C280,30 580,85 880,50 C1060,30 1150,70 1200,55 L1200,110 L0,110 Z;
+          M0,60 C300,90 560,30 860,60 C1040,80 1140,45 1200,60 L1200,110 L0,110 Z" />
+    </path>
+    <text x="600" y="72" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#F8FAFC" letter-spacing="0.8">Kenneth Barrera  •  Full-Stack Software Engineer  •  Built to Scale</text>
+  </g>
+</svg>
