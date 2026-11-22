@@ -36,30 +36,9 @@
 
 ## ✦ &nbsp; Engineering Profile
 
-> **Full-Stack Software Engineer** based in **Mexico 🇲🇽**, focused on end-to-end product delivery—from database architecture and resilient APIs to fluid web and mobile experiences.
-
-| Pillar | Focus & Execution |
-| :--- | :--- |
-| **🏗️ Architecture** | End-to-end ownership applying **Clean Architecture**, **SOLID**, and modular design patterns. |
-| **⚡ Performance** | Smooth **60/120fps** mobile interfaces paired with optimized **SQL** queries and real-time cloud sync. |
-| **📱 Cross-Platform & Web** | Production apps across **Flutter**, **Kotlin**, **React**, **Node.js**, **SQL**, and **Firebase**. |
-| **🌱 Next Frontiers** | Currently expanding into enterprise backends with **Spring Boot** and cross-platform apps with **React Native**. |
-
-<details>
-<summary><sub><b>View as code</b> (<code>profile.ts</code>)</sub></summary>
-<br/>
-
-```ts
-export const profile = {
-  engineer:      "Kenneth Barrera",
-  role:          "Full-Stack Software Engineer",
-  location:      "Mexico 🇲🇽",
-  coreStack:     ["Flutter", "Kotlin", "React", "Node.js", "SQL", "Firebase"],
-  expandingInto: ["Spring Boot", "React Native"],
-} as const;
-```
-
-</details>
+<div align="center">
+  <img src="./profile.svg" width="100%" alt="Kenneth Barrera Engineering Profile" />
+</div>
 
 ---
 
