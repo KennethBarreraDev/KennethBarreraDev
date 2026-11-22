@@ -1,13 +1,13 @@
 <div align="center">
 
-<!-- Custom Animated Wave SVG Banner (100% reliable, Black & Royal Blue) -->
+<!-- Custom Animated Hero Banner (Split Glassmorphism, Floating Terminal, Auroras & Waves) -->
 <img src="./banner.svg" width="100%" alt="Kenneth Barrera - Full-Stack Software Engineer" />
 
 <br/>
 
 <!-- Animated Typing Subheader -->
 <a href="https://github.com/KennethBarreraDev">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=780&height=40&lines=%E2%9A%A1+Architecting+Scalable+Web%2C+Mobile+%26+Cloud+Systems;%F0%9F%92%8E+Flutter+%E2%80%A2+Kotlin+%E2%80%A2+React+%E2%80%A2+Node.js+%E2%80%A2+SQL+%E2%80%A2+Firebase;%F0%9F%9A%80+Currently+Expanding+into+Spring+Boot+%26+React+Native" alt="Typing Subheader" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=780&height=38&lines=%E2%9A%A1+Architecting+Scalable+Web%2C+Mobile+%26+Cloud+Systems;%F0%9F%92%8E+Flutter+%E2%80%A2+Kotlin+%E2%80%A2+React+%E2%80%A2+Node.js+%E2%80%A2+SQL+%E2%80%A2+Firebase;%F0%9F%9A%80+Expanding+into+Spring+Boot+%26+React+Native" alt="Typing Subheader" />
 </a>
 
 <br/>
@@ -19,19 +19,12 @@
   </a>
   &nbsp;
   <a href="https://github.com/KennethBarreraDev" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-@KennethBarreraDev-09090B?style=for-the-badge&logo=github&logoColor=3B82F6" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-@KennethBarreraDev-09090B?style=for-the-badge&logo=github&logoColor=38BDF8" alt="GitHub" />
   </a>
   &nbsp;
   <img src="https://img.shields.io/badge/Based_in-Mexico_%F0%9F%87%B2%F0%9F%87%BD-09090B?style=for-the-badge" alt="Mexico" />
   &nbsp;
   <img src="https://img.shields.io/badge/Status-Open_to_Collaborate-2563EB?style=for-the-badge" alt="Status" />
-</p>
-
-<br/>
-
-<p align="center">
-  <i>I design, architect, and ship <b>end-to-end digital products</b>—combining fluid mobile experiences,<br/>
-  modern web interfaces, and scalable backend &amp; database systems.</i>
 </p>
 
 </div>
@@ -42,77 +35,10 @@
 
 <br/>
 
-## ✦ &nbsp; What I Build
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <br/>
-      <h3>🌐 Full-Stack Web</h3>
-      <p>Fast, responsive web applications and scalable REST APIs built with <b>React</b>, <b>TypeScript</b>, and <b>Node.js</b>.</p>
-      <code>React</code> <code>TypeScript</code> <code>Node.js</code> <code>Express</code>
-      <br/><br/>
-    </td>
-    <td width="33%" valign="top">
-      <br/>
-      <h3>📱 Mobile Engineering</h3>
-      <p>Fluid cross-platform and native Android apps engineered with <b>Flutter</b> and <b>Kotlin</b> using Clean Architecture.</p>
-      <code>Flutter</code> <code>Dart</code> <code>Kotlin</code> <code>Android</code>
-      <br/><br/>
-    </td>
-    <td width="34%" valign="top">
-      <br/>
-      <h3>🗄️ Data &amp; Cloud</h3>
-      <p>Normalized relational schemas, high-performance <b>SQL</b> queries, and real-time serverless backends on <b>Firebase</b>.</p>
-      <code>MySQL</code> <code>PostgreSQL</code> <code>SQL Server</code> <code>Firebase</code>
-      <br/><br/>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<img src="./divider.svg" width="100%" alt="Divider" />
-
-<br/>
-
-## ✦ &nbsp; Engineering Profile
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-
-### Principles & Workflow
-- **End-to-End Ownership** — From database design & API contracts to polished UI.
-- **Clean Architecture** — Modular, testable, SOLID-driven codebases built to scale.
-- **Performance First** — Smooth 60/120fps mobile rendering & optimized SQL queries.
-- **Continuous Evolution** — Always adopting battle-tested tools that raise engineering quality.
-
-    </td>
-    <td width="50%" valign="top">
-
-```ts
-export const profile = {
-  engineer:  "Kenneth Barrera",
-  role:      "Full-Stack Software Engineer",
-  location:  "Mexico 🇲🇽",
-
-  coreStack: [
-    "Flutter", "Kotlin",
-    "React",   "Node.js",
-    "SQL",     "Firebase",
-  ],
-
-  expandingInto: [
-    "Spring Boot",
-    "React Native",
-  ],
-};
-```
-
-    </td>
-  </tr>
-</table>
+<!-- Custom Animated Glassmorphic Bento Cards (What I Build) -->
+<div align="center">
+  <img src="./pillars.svg" width="100%" alt="Core Engineering Pillars" />
+</div>
 
 <br/>
 
@@ -126,40 +52,15 @@ export const profile = {
 
 <br/>
 
+<!-- Dark Rounded Tech Dock -->
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=react,ts,js,html,css,nodejs,express,flutter,dart,kotlin,androidstudio,firebase,mysql,postgres,git,github,postman,vscode&perline=9&theme=dark" alt="Tech Stack" />
 </a>
 
 <br/><br/>
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <br/>
-      <b>⚡ PRODUCTION STACK</b>
-      <br/><br/>
-      <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" />
-      <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" />
-      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
-      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
-      <br/>
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-      <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
-      <br/><br/>
-    </td>
-    <td align="center" width="50%">
-      <br/>
-      <b>🌱 CURRENTLY EXPANDING INTO</b>
-      <br/><br/>
-      <img src="https://skillicons.dev/icons?i=spring,java,react&perline=3&theme=dark" alt="Learning Stack" />
-      <br/><br/>
-      <code>Spring Boot</code> &nbsp;·&nbsp; <code>Java</code> &nbsp;·&nbsp; <code>React Native</code>
-      <br/><br/>
-    </td>
-  </tr>
-</table>
+<!-- Custom Animated Currently Expanding Into Card -->
+<img src="./learning.svg" width="100%" alt="Currently Expanding Into Spring Boot and React Native" />
 
 </div>
 
@@ -208,7 +109,7 @@ export const profile = {
 </a>
 &nbsp;
 <a href="https://github.com/KennethBarreraDev" target="_blank">
-  <img src="https://img.shields.io/badge/Explore_My_Repositories-09090B?style=for-the-badge&logo=github&logoColor=3B82F6" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Explore_My_Repositories-09090B?style=for-the-badge&logo=github&logoColor=38BDF8" alt="GitHub" />
 </a>
 
 <br/><br/>
