@@ -1,9 +1,7 @@
 <div align="center">
 
-<!-- Reliable Full-Width Hero Banner (via readme-typing-svg.demolab.com) -->
-<a href="https://github.com/KennethBarreraDev">
-  <img width="100%" src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=42&duration=3500&pause=1400&color=3B82F6&background=09090B&center=true&vCenter=true&width=900&height=140&lines=KENNETH+BARRERA;FULL-STACK+SOFTWARE+ENGINEER;WEB+%E2%80%A2+MOBILE+%E2%80%A2+CLOUD+SYSTEMS" alt="Kenneth Barrera Banner" />
-</a>
+<!-- Local High-Definition SVG Banner (100% reliable, Black & Royal Blue) -->
+<img src="./banner.svg" width="100%" alt="Kenneth Barrera - Full-Stack Software Engineer" />
 
 <br/><br/>
 
@@ -19,7 +17,7 @@
   &nbsp;
   <img src="https://img.shields.io/badge/Based_in-Mexico_%F0%9F%87%B2%F0%9F%87%BD-18181B?style=for-the-badge" alt="Mexico" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Status-Open_to_Collaborate-10B981?style=for-the-badge" alt="Status" />
+  <img src="https://img.shields.io/badge/Status-Open_to_Collaborate-2563EB?style=for-the-badge" alt="Status" />
 </p>
 
 <br/>
@@ -175,12 +173,8 @@ export const profile = {
 
 <br/><br/>
 
-<!-- GitHub Contribution Squares in Dark Mode (Generated via GitHub Action) -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KennethBarreraDev/KennethBarreraDev/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KennethBarreraDev/KennethBarreraDev/output/github-contribution-grid-snake.svg" />
-  <img alt="Kenneth Barrera's GitHub Contribution Grid" src="https://raw.githubusercontent.com/KennethBarreraDev/KennethBarreraDev/output/github-contribution-grid-snake-dark.svg" />
-</picture>
+<!-- GitHub Contribution Squares -->
+<img width="92%" src="https://ghchart.rshah.org/2563EB/KennethBarreraDev" alt="Kenneth Barrera's GitHub Contribution Chart" />
 
 </div>
 
